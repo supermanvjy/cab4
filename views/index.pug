@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Twitter Hashtag Sentiment Analysis
+  //- #{JSON.stringify(data)}
+  nav
+    input(type='text' id='searchbox' placeholder='Search Hashtag')
+    button(id='submit') Search
+      article 
+    <div id="app"></div>
+    //- each name in data
+    //-   .item
+    //-     button.articleTitle  #{name.name} 
+       
+  script(src='/javascripts/summary.js')
+  <div id="score"></div>
+

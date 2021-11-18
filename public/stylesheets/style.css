@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.item {
+  margin: 20px 0;
+}
+
+h1 { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 40%;
+  background: #ccc;
+  padding: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #069;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+article {
+  float: right;
+  width: 60%;
+  background-color: #f1f1f1;
+}
+
+button:hover {
+  text-decoration: underline;
+}
